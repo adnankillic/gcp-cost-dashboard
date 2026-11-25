@@ -7,6 +7,15 @@ A Streamlit dashboard for Google Cloud costs. It has two pages:
 
 Each page has a Daily / Monthly switch and filters in the sidebar.
 
+**Live demo:** https://gcp-cost-dashboard.streamlit.app/
+
+The app runs on Streamlit Community Cloud. If nobody opened it for a while, it
+goes to sleep. Click "Yes, get this app back up!" and wait about a minute.
+
+![GCP All Services, monthly view](docs/gcp_monthly.png)
+
+![BigQuery, daily view](docs/bigquery_daily.png)
+
 ## Data
 
 The dashboard uses **sample data** for August to October 2026. The data is
